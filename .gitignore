@@ -1,0 +1,13 @@
+# Editor/project config
+.vscode/
+
+# Build artifacts
+.cache/
+target/
+pkg/
+**/*.rs.bk
+dist/
+wasm-pack.log
+
+# Transient dependancies
+node_modules/

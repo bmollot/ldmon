@@ -1,0 +1,11 @@
+[package]
+name = "ldmon"
+version = "0.1.0"
+authors = ["Braeden Mollot <3mollot@gmail.com>"]
+
+# [lib]
+# crate-type = ["lib", "cdylib"]
+
+[dependencies]
+stdweb = "0.4.10"
+yew = {git = "https://github.com/DenisKolodin/yew"}

@@ -1,0 +1,19 @@
+{
+  "name": "ldmon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Braeden Mollot <3mollot@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "watchreload": {
+    "files": "dist/*"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-cargo-web": "^0.3.0"
+  },
+  "dependencies": {}
+}
