@@ -1,0 +1,21 @@
+{
+  "name": "LDMon",
+  "short_name": "LDM",
+  "icons": [
+    {
+      "src": "/res/icons/dev-icon.192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/res/icons/dev-icon.512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#4444FF",
+  "background_color": "#4444FF",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "landscape"
+}

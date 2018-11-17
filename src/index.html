@@ -2,11 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="res/icons/favicon.16.png" type="image/png">
+  <link rel="manifest" href="web/manifest.webmanifest">
   <title>LDMon</title>
+  <script src="web/service-worker-registration.js"></script>
 </head>
 <body>
-  <script src="./index.js"></script>
+  <noscript>
+    This is a game written in Rust (mostly).
+    It runs client-side via WASM.
+    It <em>needs</em> scripting enabled to run.
+    If you are concerned about security, I invite you to
+    read through the <a href="#lol-I'll-add-this-later-honest">project's source</a>.
+  </noscript>
+  <main>
+    <h1>Loading WASM core...</h1>
+  </main>
+  <footer>
+      <input id="pwa-install-button" type="button" value="Add PWA to Home Screen" style="display: none">
+  </footer>
+  <script src="web/index.js"></script>
 </body>
 </html>

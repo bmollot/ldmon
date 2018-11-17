@@ -1,6 +1,9 @@
 # Editor/project config
 .vscode/
 
+# Crypto
+signing/
+
 # Build artifacts
 .cache/
 target/
